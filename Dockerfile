@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+
+
 COPY ./content /workdir/
 
 RUN apk add --no-cache curl runit caddy jq \
